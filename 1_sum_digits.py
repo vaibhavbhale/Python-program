@@ -1,7 +1,7 @@
-num = input("Enter the digits: ")  
-sum = 0
+total = 0
 
-for i in num:
-    sum = sum+int(i) 
+for i in range(10):
+    num = int(input("Enter a digit: "))
+    total += num
 
-print("Sum is:", sum)
+print("Sum is:", total)
